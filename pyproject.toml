@@ -3,7 +3,7 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools", "setuptools-scm"]
 
 [project]
-authors = [{ email = "a.j.mitchell@ucl.ac.uk", name = "Andrew Mitchell" }]
+authors = [{email = "a.j.mitchell@ucl.ac.uk", name = "Andrew Mitchell"}]
 classifiers = [
     "Operating System :: POSIX",
     "Programming Language :: Python :: 3",
@@ -23,7 +23,7 @@ description = "Python toolkit for working with SATP Data."
 dynamic = ["version"]
 keywords = []
 name = "satp-kit"
-optional-dependencies = { dev = [
+optional-dependencies = {dev = [
     "build",
     "mypy",
     "pre-commit",
@@ -39,15 +39,15 @@ optional-dependencies = { dev = [
 ], test = [
     "pytest",
     "pytest-cov",
-] }
+]}
 readme = "README.md"
 requires-python = ">=3.11"
 license.file = "LICENSE.md"
 urls.homepage = "https://github.com/soundscape-labs/satp-kit"
 
 [tool.coverage]
-report = { sort = "cover" }
-run = { branch = true, parallel = true, source = ["satp-kit"] }
+report = {sort = "cover"}
+run = {branch = true, parallel = true, source = ["satp-kit"]}
 paths.source = ["src", ".tox*/*/lib/python*/site-packages"]
 
 [tool.mypy]
@@ -62,16 +62,16 @@ fix = true
 force-exclude = true
 lint.ignore = [
     "COM812", # trailing commas (ruff-format recommended)
-    "D203",   # no-blank-line-before-class
-    "D212",   # multi-line-summary-first-line
-    "D407",   # removed dashes lines under sections
-    "D417",   # argument description in docstring (unreliable)
+    "D203", # no-blank-line-before-class
+    "D212", # multi-line-summary-first-line
+    "D407", # removed dashes lines under sections
+    "D417", # argument description in docstring (unreliable)
     "ISC001", # simplify implicit str concatenation (ruff-format recommended)
 ]
-lint.per-file-ignores = { "tests*" = [
+lint.per-file-ignores = {"tests*" = [
     "INP001", # File is part of an implicit namespace package.
-    "S101",   # Use of `assert` detected
-] }
+    "S101", # Use of `assert` detected
+]}
 lint.select = ["ALL"]
 lint.isort.known-first-party = ["satp_kit"]
 lint.mccabe.max-complexity = 18
@@ -92,7 +92,7 @@ overrides."tool.tox.env_run_base.commands".inline_arrays = false
 
 [tool.tox]
 env_list = ["py311", "py312", "py313"]
-env_run_base = { commands = [
+env_run_base = {commands = [
     [
         "pytest",
         "--cov",
@@ -100,8 +100,8 @@ env_run_base = { commands = [
     ],
 ], extras = [
     "test",
-] }
-env.docs = { commands = ["mkdocs", "build", "--strict"], extras = ["docs"] }
+]}
+env.docs = {commands = ["mkdocs", "build", "--strict"], extras = ["docs"]}
 gh.python."3.11" = ["py311"]
 gh.python."3.12" = ["py312"]
 gh.python."3.13" = ["py313"]

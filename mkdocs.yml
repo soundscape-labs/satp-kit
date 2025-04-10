@@ -2,8 +2,8 @@ site_name: "SATP Kit"
 site_description: "Documentation website for SATP Kit"
 site_author: "Andrew Mitchell"
 copyright: "Copyright © 2025 Andrew Mitchell"
-repo_url: "https://github.com/MitchellAcoustics/satp-kit/"
-repo_name: "MitchellAcoustics/satp-kit"
+repo_url: "https://github.com/soundscape-labs/satp-kit/"
+repo_name: "soundscape-labs/satp-kit"
 edit_uri: edit/main/docs/
 
 validation:
@@ -60,4 +60,4 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/MitchellAcoustics"
+      link: "https://github.com/soundscape-labs"

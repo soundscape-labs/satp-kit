@@ -5,6 +5,6 @@ authors:
   - family-names: "Mitchell"
     given-names: "Andrew"
     email: "a.j.mitchell@ucl.ac.uk"
-repository-code: "https://github.com/MitchellAcoustics/satp-kit"
+repository-code: "https://github.com/soundscape-labs/satp-kit"
 title: "SATP Kit: Python toolkit for working with SATP Data."
 license: "MIT"

@@ -7,12 +7,12 @@
 [![License][license-badge]](./LICENSE.md)
 
 <!-- prettier-ignore-start -->
-[tests-badge]:              https://github.com/MitchellAcoustics/satp-kit/actions/workflows/tests.yml/badge.svg
-[tests-link]:               https://github.com/MitchellAcoustics/satp-kit/actions/workflows/tests.yml
-[linting-badge]:            https://github.com/MitchellAcoustics/satp-kit/actions/workflows/linting.yml/badge.svg
-[linting-link]:             https://github.com/MitchellAcoustics/satp-kit/actions/workflows/linting.yml
-[documentation-badge]:      https://github.com/MitchellAcoustics/satp-kit/actions/workflows/docs.yml/badge.svg
-[documentation-link]:       https://github.com/MitchellAcoustics/satp-kit/actions/workflows/docs.yml
+[tests-badge]:              https://github.com/soundscape-labs/satp-kit/actions/workflows/tests.yml/badge.svg
+[tests-link]:               https://github.com/soundscape-labs/satp-kit/actions/workflows/tests.yml
+[linting-badge]:            https://github.com/soundscape-labs/satp-kit/actions/workflows/linting.yml/badge.svg
+[linting-link]:             https://github.com/soundscape-labs/satp-kit/actions/workflows/linting.yml
+[documentation-badge]:      https://github.com/soundscape-labs/satp-kit/actions/workflows/docs.yml/badge.svg
+[documentation-link]:       https://github.com/soundscape-labs/satp-kit/actions/workflows/docs.yml
 [license-badge]:            https://img.shields.io/badge/License-MIT-yellow.svg
 <!-- prettier-ignore-end -->
 
@@ -62,13 +62,13 @@ development version of `satp-kit` using `pip` in the currently active
 environment run
 
 ```sh
-pip install git+https://github.com/MitchellAcoustics/satp-kit.git
+pip install git+https://github.com/soundscape-labs/satp-kit.git
 ```
 
 Alternatively create a local clone of the repository with
 
 ```sh
-git clone https://github.com/MitchellAcoustics/satp-kit.git
+git clone https://github.com/soundscape-labs/satp-kit.git
 ```
 
 and then install in editable mode by running
